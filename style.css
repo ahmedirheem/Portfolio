@@ -372,3 +372,113 @@ header .btn:hover{
     font-size: 18px;
 }
 /* End Services */
+
+/* Start Contact */
+.contact{
+    background-color: #1c1c1c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px
+}
+.contact .main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .main h2{
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 2em;
+}
+.contact .main a{
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 30px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.contact .main a:hover{
+    background-color: transparent;
+    color: var(--main-color);
+    font-weight: bold;
+}
+@media (max-width: 991px){
+    .contact{
+        padding: 20px 0;
+    }
+}
+.footer{
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px
+}
+.footer .main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .main h3{
+    color: #fff;
+    line-height: 2em;
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+.footer .main p:first-of-type{
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+}
+.footer .main ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.footer .main ul li{
+    list-style: none;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--main-color);
+    transition: 0.3s;
+}
+.footer .main ul li:hover{
+    transform: scale(1.2);
+}
+.footer .main ul li a{
+    display: inline-block;
+
+}
+.footer ul li a img{
+    width: 20px;
+    height: auto;
+    filter: invert(1);
+}
+.footer ul li a img.face{
+    width: 12px
+}
+.footer ul li a svg{
+    width: 20px;
+}
+.footer .main p:last-of-type{
+    color: var(--main-color);
+    line-height: 1.5;
+    text-align: center;
+    font-size: 14px;
+}
+/* End Contact */
