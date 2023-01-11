@@ -258,6 +258,11 @@ header .btn:hover{
         width: 100%;
         padding-left: 0;
     }
+    .about .main,
+    .reason .main{
+        width: 85%;
+        padding: 0;
+    }
 }
 .reason{
     background-color: #151515;
@@ -531,6 +536,9 @@ header .btn:hover{
     .awards .main .boxes{
         flex-direction: column;
         align-items: center;
+    }
+    .awards .boxes .box{
+        max-width: none;
     }
 }
 /* End Awards */
